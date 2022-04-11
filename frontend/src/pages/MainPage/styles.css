@@ -1,0 +1,95 @@
+.loading { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0 2rem;
+}
+
+#main .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    background-color: rgb(198, 198, 198);
+    border-bottom: 1px solid #e5e5e5;
+}
+
+#main .nav logo {
+    width: 3rem;
+    height: 3rem;
+    margin-right: 1rem;
+}
+
+#main .nav button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#main .search,
+#main .new {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    background-color: rgb(198, 198, 198);
+    border-bottom: 1px solid #e5e5e5;
+    gap: 0.5rem;
+}
+
+#main label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000;
+}
+
+#main input {
+    width: 30%;
+    height: 2rem;
+    border: 1px solid #e5e5e5;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+}
+
+#main .repositories {
+    max-width: 480px;
+    margin: 1rem auto;
+}
+
+#main .repositories .title {
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+#main .repositories .list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#main .repositories .item {
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #d5d5d5;
+    padding: 1rem;
+    display:flex;
+    align-items: center;
+}
+
+#main .repositories .item .info {
+    flex: 1;
+}
+
+#main .repositories .item:last-child {
+    border-bottom: none;
+}
+
+#main .repositories .item .owner {
+    font-size: 0.8rem;
+}
+
+#main .repositories .item .name {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
